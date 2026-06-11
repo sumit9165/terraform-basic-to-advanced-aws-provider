@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# SSH Keys (never commit private keys)
+terra-key
+terra-key.pub
+*.pem
+*.pub
+
+# OS
+.DS_Store
+
+terra-automate-key
+terra-automate-key.pub
